@@ -6,22 +6,21 @@ int check_cycle(listint_t *list)
 	listint_t *ptrtest, *next;
 
 	if (list != NULL)
+		return (0);
+	ptrtest = list->next;
+	while (ptrtest != NULL)
 	{
-		ptrtest = list->next;
-		while (ptrtest != NULL)
+		next = list;
+		i = 0;
+		while (next != NULL && i < n)
 		{
-			next = list;
-			i = 0;
-			while (next != NULL && i < n)
-			{
-				if (next == ptrtest)
-				return (1);
-				next = next->next;
-				i++;
-			}
-			ptrtest = ptrtest->next;
-			n++;
+			if (next == ptrtest)
+			return (1);
+			next = next->next;
+			i++;
 		}
-}
-return (0);
+		ptrtest = ptrtest->next;
+		n++;
+	}
+	return (0);
 }
