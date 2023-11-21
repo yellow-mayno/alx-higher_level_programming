@@ -7,6 +7,6 @@ def safe_print_list(my_list=[], x=0):
                 break
             print("{}".format(e), end='\0')
             i = i + 1
-        print()
     finally:
+        print()
         return (i)
