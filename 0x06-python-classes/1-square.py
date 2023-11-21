@@ -2,7 +2,11 @@
 
 
 class Square:
-    '''empty
-    '''
+    """
+    empty
+    """
     def __init__(self, size):
+        """
+        empty
+        """
         self.__size = size

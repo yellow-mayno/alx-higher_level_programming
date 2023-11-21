@@ -2,6 +2,7 @@
 
 
 class Square:
-    '''empty
-    '''
+    """
+    empty
+    """
     pass
