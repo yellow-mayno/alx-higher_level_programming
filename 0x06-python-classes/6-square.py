@@ -1,13 +1,14 @@
 #!/usr/bin/python3
+"""empty"""
 
 
 class Square:
-    """
-    empty
-    """
+    """empty"""
     def __init__(self, size=0):
-        """
-        empty
+        """empty
+
+        Args:
+            size (int): lkjlkjlk
         """
         if type(size) != int:
             raise TypeError("size must be an integer")
@@ -16,22 +17,20 @@ class Square:
         self.__size = size
 
     def area(self):
-        """
-        empty
-        """
+        """empty"""
         return (self.__size * self.__size)
 
     @property
     def size(self):
-        """
-        empty
-        """
+        """empty"""
         return self.__size
 
     @size.setter
     def size(self, size):
-        """
-        empty
+        """empty
+
+        Args:
+            size (int): lkjlkjlk
         """
         if type(size) != int:
             raise TypeError("size must be an integer")
@@ -40,9 +39,7 @@ class Square:
         self.__size = size
 
     def my_print(self):
-        """
-        empty
-        """
+        """empty"""
         if self.__size == 0:
             print()
             return
@@ -53,8 +50,10 @@ class Square:
 
     @position.setter
     def position(self, value):
-        """
-        empty
+        """empty
+
+        Args:
+            size (int): lkjlkjlk
         """
         if not isinstance(value, tuple):
             raise TypeError("position must be a tuple of 2 positive integers")

@@ -7,7 +7,7 @@ class Square:
 
     def __init__(self, size=0):
         """empty
-        
+
         Args:
             size (int): lkjlkjlk
         """
@@ -29,7 +29,7 @@ class Square:
     @size.setter
     def size(self, size):
         """empty
-        
+
         Args:
             size (int): lkjlkjlk
         """

@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """empty"""
 
+
 class Square:
     """empty"""
-    
+
     def __init__(self, size=0):
         """empty
-        
+
         Args:
             size (int): lkjlkjlk
         """
