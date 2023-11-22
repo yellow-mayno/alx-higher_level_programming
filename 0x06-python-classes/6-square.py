@@ -53,7 +53,7 @@ class Square:
         """empty
 
         Args:
-            size (int): lkjlkjlk
+            value (int): lkjlkjlk
         """
         if not isinstance(value, tuple):
             raise TypeError("position must be a tuple of 2 positive integers")
