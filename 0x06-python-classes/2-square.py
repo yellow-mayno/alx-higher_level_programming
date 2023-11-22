@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-
+"""empty"""
 
 class Square:
-    """
-    empty
-    """
+    """empty"""
+    
     def __init__(self, size=0):
-        """
-        empty
+        """empty
+        
+        Args:
+            size (int): lkjlkjlk
         """
         if type(size) != int:
             raise TypeError("size must be an integer")
