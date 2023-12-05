@@ -7,8 +7,7 @@ def pascal_triangle(n):
     """ fdsgsfdg sdf gdsf gsfd g
 
     Args:
-        filename: filename
-        text: text
+        n: filename
 
     Returns:
         DSAFKJHASDKJF SLKJD JHFDSHF LKJ
