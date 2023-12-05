@@ -4,7 +4,7 @@
 import json
 
 
-def save_to_json_file(my_obj):
+def load_from_json_file(my_obj):
     """ dfg dsfg sdfg sdfg sfgds
 
     Args:
