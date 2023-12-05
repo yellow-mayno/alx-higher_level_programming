@@ -3,7 +3,7 @@
 
 
 def read_file(filename=""):
-    """ dfdsg df gdsfg dsfg 
+    """ dfdsg df gdsfg dsfg
 
     Args:
         filename: filename
