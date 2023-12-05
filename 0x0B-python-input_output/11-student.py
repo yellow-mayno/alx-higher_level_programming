@@ -28,4 +28,4 @@ class Student:
     def reload_from_json(self, json):
         """ dsf sad sdf sdf """
         for elem in json:
-            self.__dict__[element] = json[element]
+            self.__dict__[elem] = json[elem]
