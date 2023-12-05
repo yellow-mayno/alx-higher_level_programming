@@ -10,6 +10,9 @@ def pascal_triangle(n):
         filename: filename
         text: text
 
+    Returns:
+        DSAFKJHASDKJF SLKJD JHFDSHF LKJ
+
     """
     if n <= 0:
         return []
