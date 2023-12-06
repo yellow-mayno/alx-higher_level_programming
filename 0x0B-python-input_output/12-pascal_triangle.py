@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+""" dsfsd fsd
+"""
+
+
 def pascal_triangle(n):
     """ fdsgsfdg sdf gdsf gsfd g
 
@@ -6,10 +10,9 @@ def pascal_triangle(n):
         n: filename
 
     Returns:
-        list: dfsgdf dfg dfs dfg
+        list: HASDKJF SLKJD JHFDSHF LKJ
 
     """
-
     if n <= 0:
         return []
     elif n == 1:
