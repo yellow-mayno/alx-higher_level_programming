@@ -10,7 +10,7 @@ def pascal_triangle(n):
         n: filename
 
     Returns:
-        DSAFKJHASDKJF SLKJD JHFDSHF LKJ
+        list: HASDKJF SLKJD JHFDSHF LKJ
 
     """
     if n <= 0:
