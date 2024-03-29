@@ -1,3 +1,3 @@
 -- show the average of a column
-SELECT avg(score) AS average from second_table;
+SELECT AVG(score) AS average from second_table;
 
