@@ -1,2 +1,2 @@
 -- insert a column in our table
-INSERT INTO first_table (id, name) VALUES (89, 'BEST SCHOOL');
+INSERT INTO first_table (ID, NAME) VALUES (89, 'Best School');
