@@ -3,7 +3,7 @@ const { argv } = require('node:process');
 const arg = Number(argv[2]);
 let i = NaN;
 if (isNaN(arg)) {
-  console.log('Missing number of occurrences');
+  console.log('Missing size');
   process.exit();
 }
 for (i = 0; i < arg; i++) {
