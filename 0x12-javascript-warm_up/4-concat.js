@@ -6,4 +6,4 @@ argv.forEach((ind, val) => {
 });
 args.push('undefined');
 args.push('undefined');
-console.log(`${args[2]} is ${args[3]}`);
+console.log(args[2] 'is' + args[3]);
