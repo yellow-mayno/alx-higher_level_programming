@@ -1,4 +1,4 @@
-#!/usr/bin/nore
+#!/usr/bin/node
 const { argv } = require('node:process');
 const list = [];
 argv.forEach((value, index) => {
@@ -10,4 +10,3 @@ if (list[3] === undefined) {
   process.exit();
 }
 console.log(list[3]);
-
